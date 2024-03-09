@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+.main{
+    background-color: black;
+}
+/* Layout */
+.main{
+    display: flex;
+    margin: 0.5rem;
+}
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    width: 420px;
+    border-radius: 1rem;
+}
+.main-content{
+    background-color: rgba(18, 18, 18, 0.1);
+    height: 100vh;
+    flex: 1;
+    border-radius: 1rem;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 72px;
+    width: 100%;
+}
+/* Sidebar */
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    background-color: #121212;
+    height: 112px;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav li{
+    padding: 0.25rem 0.75rem;
+    line-height: 40px;
+    font-weight: 700;
+}
+.nav li i{
+    margin-right: 15px;
+}
+.nav-options{
+    line-height: 40px;
+    opacity: 0.7;
+}
+.nav-options:hover{
+    opacity: 1;
+}
+.nav-options i{
+    font-size: 1.25rem;
+}
+.nav-options a{
+    font-size: 1rem;
+}
+/* Library */
+.library{ 
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+.lib-content{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 56px;
+}
+.library .lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 15px;
+}
+.library .lib-option span{
+    font-weight: 700;
+}
+.library .lib-icons{
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    letter-spacing: 15px;
+}
+.library .lib-option img,
+.library .lib-option span,
+.library .lib-icons i{
+    opacity: 0.7;
+}
+.library .lib-option img:hover,
+.library .lib-option span:hover,
+.library .lib-icons i:hover{
+    opacity: 1;
+}
+/* playlist */
+.playlist{
+    line-height: 48px;
+}
+.playlist button{
+    padding: 0.25rem 0.75rem;
+    border: none;
+    border-radius: 75%;
+    font-size: 0.75rem;
+    font-weight: 400;
+    background-color: #232323;
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+.recent-options{
+    display: flex;
+}
+.recent i, 
+.recent-options i{   
+    font-size: 1rem;
+}
+.recent-options p{
+    font-size: 0.75rem;
+}
+.recent-options i{
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
+    margin-right: 0.5rem;
+}
+.recent-options p{
+    line-height: 34px;
+}
+.recent i,
+.recent-options p,i{
+    opacity: 0.7;
+}
+.recent i:hover,
+.recent-options p,i:hover{
+    opacity: 1;
+}
+/* folder */
+.folder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+.folder-icon{
+    display: flex;
+}
+.folder .folder-icon i{
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+.li-2{
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.folder-icon i{
+    margin-right: 15px;
+}
+.folder-arrow{
+    padding: 1rem 0.5rem;
+    margin-right: 0.5rem;
+}
+.music-icon i{
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+.music-icon{
+    display: flex;
+}
+
+.folder:hover,
+.music:hover{
+    background-color: #232323;
+}
